@@ -1,0 +1,131 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9f9f9;
+    padding: 15px;
+}
+.header__logo-img{
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+.logo-title{
+    display: flex;
+    color: #f9f9f9;
+    margin-top: 7px;
+    font-size: 28px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    line-height: 1;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.header-logo span{
+    color: rgba(242, 242, 242, 0.8);
+}
+.header a{
+    color: #f2f2f2;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.375s ease-in-out;
+    font-family: sans-serif;
+}
+.header-block{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.search{
+    cursor: pointer;
+}
+.header-search{
+    column-gap: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #202020;
+    background-color: #171717;
+    border-radius: 1rem;
+    padding: 0 18px;
+}
+
+.header input{
+    border: 2px solid #171717;
+    background-color: #171717;
+    font-family: inherit;
+    color: #f9f9f9;
+    font-size: 16px;
+    padding: 0 15px;
+    width: 500px;
+    height: 50px;
+    border-radius: 1rem;
+    transition: all 0.375s ease-in-out;
+    
+}
+.plus{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.plus:hover{
+    color: #ffa332;
+    transition: all 0.375s ease-in-out;
+}
+.header p{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    line-height: 1;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.375s ease-in-out;
+    font-family: sans-serif;
+}
+
+
+
+.header-login{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo-text:hover{
+    color: #ffa332;
+}
+
+.logo-text a:hover{
+    color: #ffa332;
+}
+
+.logo-text{
+    display: flex;
+    column-gap: 5px;
+}
+
+.header-menu:hover{
+    color: #ffa332;
+    transition: all 0.375s ease-in-out;
+}
+.header-menu p:hover{
+    color: #ffa332;
+    transition: all 0.375s ease-in-out;
+}
